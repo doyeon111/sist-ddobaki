@@ -6,4 +6,7 @@
   <select id="findAll" resultType="roomVO">
     select * from room
   </select>
+  <select id="findByNo" resultType="roomVO">
+    select * from room where place_num = #{place_num}
+  </select>
 </mapper>
