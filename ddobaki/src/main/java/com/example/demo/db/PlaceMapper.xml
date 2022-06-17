@@ -37,4 +37,8 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		select * from place where place_num =#{place_num}
 	</select>
 	
+	<update id="plusPlaceHit">
+      		update place set place_hit=place_hit+1 where place_num=#{place_num}
+ 	 </update>
+	
 </mapper>
