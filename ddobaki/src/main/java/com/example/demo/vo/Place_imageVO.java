@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class Place_imageVO {
-	private int IMAGE_NUM;
-    private int PLACE_NUM;
-    private String PLACE_FILE;
+	private int place_image_num;
+    private int place_num;
+    private String place_image_file;
 }
